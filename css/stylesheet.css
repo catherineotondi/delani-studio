@@ -21,8 +21,7 @@ color: white;
 text-align: center;
 margin: auto;
 font-weight: bold;
-bottom: 50px;
-padding: 300px;
+padding: 200px;
     
 }
 .about{
@@ -77,6 +76,9 @@ text-align: center;
 }
 .socialmedia{
    text-align: center;
+}
+.mouse{
+    padding: 180px;
 }
 
 
