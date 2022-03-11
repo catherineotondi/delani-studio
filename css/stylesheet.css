@@ -43,4 +43,25 @@ padding: 300px;
     font-size: xx-large;
     font-weight: bolder;
 }
+.designicon{
+float: left;
+width: 400px;
+height:400px 
+}
+
+.devicon{
+width: 400px;
+height:400px    
+}
+.producticon{
+    
+width: 400px;
+height:400px 
+}
+.iconcontainer{
+display: flex;
+text-align: center;
+  
+  
+}
 
