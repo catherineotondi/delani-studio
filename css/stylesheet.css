@@ -22,13 +22,14 @@ text-align: center;
 margin: auto;
 font-weight: bold;
 bottom: 50px;
+padding: 300px;
     
 }
 .about{
     text-align: center;
 }
 .services{
-    background-image: url(/home/katerina/Documents/IP-PROJECT3/img/s_image.jpg);
+    background-image: url(../img/s_image.jpg);
     height: 300px;
     text-align: center;
     color: white;
@@ -36,5 +37,10 @@ bottom: 50px;
     padding: 100px;
     font-size: larger;
     background-size: cover;
+}
+.what{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
