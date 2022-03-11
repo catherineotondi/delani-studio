@@ -62,4 +62,17 @@ height:400px
 display: flex;
 text-align: center;
 }
+.portfoliocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+
+}
+.work{
+    width: 150px;
+    height: 150px;
+}
+
 
