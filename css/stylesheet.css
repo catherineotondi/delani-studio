@@ -65,15 +65,37 @@ ul{
 list-style-type: none;
 display: flex;
 flex-wrap: wrap;
+padding: 5px;
 }
 li{
 width: 300px;
 height: 300px;
+padding: 5px;
 }
 .contact{
     background-image: url(../img/c_image.jpg);
     height: 500px;
+    text-align: center;
+    
 }
+#username{
+    width: 25%;
+    display:inline-block; 
+    margin-left: 50px;
+    background: transparent; 
+    border: 1px solid white;
+}
+#email{
+    width: 25%;
+    display:inline-block; 
+    margin-left: 50px;
+    background: transparent; 
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+
 .socialmedia{
    text-align: center;
 }
