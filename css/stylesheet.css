@@ -1,0 +1,40 @@
+.topbody{
+background-image:url(../img/h_img.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+padding: 1em;
+margin: 0.5em;
+}
+.oletter{
+    font-size: 70px;
+    height: 60px;
+    width: 60px;
+}
+.dletter{
+    font-size: 30px;
+    height: 20x;
+    width: 200px;
+}
+.text{
+color: white;
+text-align: center;
+margin: auto;
+font-weight: bold;
+bottom: 50px;
+    
+}
+.about{
+    text-align: center;
+}
+.services{
+    background-image: url(/home/katerina/Documents/IP-PROJECT3/img/s_image.jpg);
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 100px;
+    font-size: larger;
+    background-size: cover;
+}
+
