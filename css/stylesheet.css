@@ -42,17 +42,17 @@ padding: 200px;
     font-size: xx-large;
     font-weight: bolder;
 }
-.designicon{
+.designiconn{
 float: left;
 width: 400px;
 height:400px 
 }
 
-.devicon{
+.deviconn{
 width: 400px;
 height:400px    
 }
-.producticon{
+.producticonn{
     
 width: 400px;
 height:400px 
@@ -111,9 +111,19 @@ height: auto;
 }
 .initially-showing{
     display:none;
+    width: 250px;;
  }
 .designicon{
     cursor: pointer;
      }
+     input[type=submit] {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
 
 

@@ -43,36 +43,40 @@
     <p><div class="what">WHAT WE DO</div> </p>
     <div class="iconcontainer">
 
-     
-    <div class="designicon">
-        <img src="img/design_icon.png" alt="Design"><br>
-        <label>DESIGN</label>
-    </div>
+    <div class="designiconn">
+        <div class="designicon">
+            <img src="img/design_icon.png" alt="Design"><br>
+            <label>DESIGN</label>
+        </div>
         <div class="initially-showing">
             <strong >DESIGN</strong>
             <P>Our design pracice offers a full range of services including brand strategy, interaction and visual design and user experience testing<br>
             Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed. </P>
         </div>
-    </div>   
-    <div class="devicon">
-        <img src="img/dev_icon.png" alt="Design"><br>
-        <label>DEVELOPMENT</label>
     </div> 
-    <div class="initially-showing">
-        <strong >DEVELOPMENT</strong>
-        <P>All engineers are fleunt in the latest enterprise, mobile and web 
-        development technologies.<br>They collaborate with your team to write, and improve code on daily basis, using the proven practices such as test-driven development and pair programming. </P>
-    </div>  
-    <div class="producticon">
-        <img src="img/product_icon.png" alt="Design"><br>
-        <label>PRODUCT MANAGEMENT</label>
-    </div>  
-    <div class="initially-showing">
-        <strong >Product Management</strong>
-        <P>Planning and development is iterative. Because we are constantly coding and testing , the products we build are always ready to go live<br>
-        This iterative process allows for changes as business requirements evolve.</P>
+    <div class="deviconn">
+        <div class="devicon">
+            <img src="img/dev_icon.png" alt="Design"><br>
+            <label>DEVELOPMENT</label>
+        </div>
+        <div class="initially-showing">
+            <strong >DEVELOPMENT</strong>
+            <P>All engineers are fleunt in the latest enterprise, mobile and web 
+                development technologies.<br>They collaborate with your team to write, and improve code on daily basis, using the proven practices such as test-driven development and pair programming. </P>
+        </div>
     </div>
+    <div class="producticonn">
+        <div class="producticon">
+            <img src="img/product_icon.png" alt="Design"><br>
+            <label>PRODUCT MANAGEMENT</label>
+        </div>
+        <div class="initially-showing">
+            <strong >Product Management</strong>
+            <P>Planning and development is iterative. Because we are constantly coding and testing , the products we build are always ready to go live<br>
+                This iterative process allows for changes as business requirements evolve.</P>
+        </div>
     </div> 
+    </div>
     
     <h1 style="text-align: center;">PORTFOLIO</h1>
     <div class="portfoliocontainer">
@@ -106,19 +110,21 @@
     
     <div class="contact">
         <h1 style=" text-align:center; color: white;" >CONTACT US</h1>
-        
+        <form>
         <label for="username">
-            <input id="username" type="text" name="username" placeholder="Name...">
+            <input id="username" type="text" name="username" placeholder="Name..." minlength="3" required>
         </label>
             <label for="email">
-                <input id="email" type="email" name="email" placeholder="Email...">
+                <input id="email" type="email" name="email" placeholder="Email..." required>
             </label>
             <br>
             <p>
             <textarea id="message" name="message"rows="15" cols="70" style="background: transparent; border: 1px solid white;
-            color: white;">
+            color: white;" required>
                 Your message here...</textarea>
             </p>
+            <input type="submit" value="Submit" id="submit">
+        </form>
     </div>
     <br>
     <div class="socialmedia">
