@@ -109,5 +109,11 @@ height: auto;
 .mouse{
     padding: 180px;
 }
+.initially-showing{
+    display:none;
+ }
+.designicon{
+    cursor: pointer;
+     }
 
 
