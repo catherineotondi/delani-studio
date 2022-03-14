@@ -123,7 +123,7 @@ height: auto;
 body {  margin: 0 auto; }
 
 }
-.project1-overlay{
+.project1-overlay, .project2-overlay{
 position: absolute;
 top: 0;
 left: 0;
@@ -139,14 +139,14 @@ opacity: 0;
 transition: opacity 0.25s;
 }
 
-.project1-overlay > *{
+.project1-overlay, .project2-overlay> *{
 transform: translateY(20px);
 transition: transform 0.25s;
 }
-.project1-overlay:hover > *{
+.project1-overlay:hover, .project2-overlay:hover > *{
     transform: translateY(0);
 }
-.project1-overlay:hover{
+.project1-overlay:hover, .project2-overlay:hover{
 opacity:0.8;
 }
 
