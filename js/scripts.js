@@ -3,23 +3,25 @@ $(document).ready(function(){
     // toggle between the icons and description elements.
     $(".designiconn").on('click', function (){
         
-        $(".design-des").fadeToggle(300);
-        $(".designicon").fadeToggle(300);
+        $(".designicon").fadeToggle(3000);
+        $(".design-des").fadeToggle(3000);
     });
     $(".deviconn").on('click', function (){
-        $(".dev-des").fadeToggle(300);
-        $(".devicon").fadeToggle(300);
+        $(".devicon").fadeToggle(3000);
+        $(".dev-des").fadeToggle(3000);
     });
     $(".producticonn").on('click', function (){
-        $("#product").fadeToggle(300);
-        $("producticon").fadeToggle(300);
+        $(".producticon").fadeToggle(3000);
+        $("#product").fadeToggle(3000);
     });
+    
     $('#form').on('submit', function (e) {
             e.preventDefault()
 
     $("#submit").click(function(){
         alert("We have received your message. Thank you for contacting us.");
     });
+    
     
 });
 
