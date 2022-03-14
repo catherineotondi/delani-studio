@@ -6,16 +6,7 @@ height: 700px;
 padding: 1em;
 margin: 0.5em;
 }
-.oletter{
-    font-size: 70px;
-    height: 60px;
-    width: 60px;
-}
-.dletter{
-    font-size: 30px;
-    height: 20x;
-    width: 200px;
-}
+
 .text{
 color: white;
 text-align: center;
@@ -109,11 +100,11 @@ height: auto;
 .mouse{
     padding: 180px;
 }
-.initially-showing{
+.dev-des, #product, .design-des{
     display:none;
     width: 250px;;
  }
-.designicon{
+.designiconn, .producticonn, .deviconn{
     cursor: pointer;
      }
      input[type=submit] {
@@ -126,4 +117,11 @@ height: auto;
         cursor: pointer;
       }
 
+      @media (min-width:370px) {
+
+body {  margin: 0 auto; }
+
+}
+
+      
 
