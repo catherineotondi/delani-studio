@@ -66,16 +66,17 @@
         </div>
     </div>
     <div class="producticonn">
-        <div class="producticon">
+        <div class="procucticon">
             <img src="img/product_icon.png" alt="product"><br>
-            <label>PRODUCT MANAGEMENT</label>
+            <label>PROCUCT MANAGEMENT</label>
         </div>
         <div id="product">
             <strong >Product Management</strong>
             <p>Planning and development is iterative. Because we are constantly coding and testing , the products we build are always ready to go live<br>
                 This iterative process allows for changes as business requirements evolve.</p>
         </div>
-    </div> 
+    </div>
+  
     </div>
     
     <h1 style="text-align: center;">PORTFOLIO</h1>
@@ -120,8 +121,7 @@
             <br>
             <p>
             <textarea id="message" name="message"rows="15" cols="70" style="background: transparent; border: 1px solid white;
-            color: white;" required>
-                Your message here...</textarea>
+            color: white;" placeholder="Your message here..." required></textarea>
             </p>
             <input type="submit" value="Submit" id="submit">
             
@@ -150,6 +150,27 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script> 
+ <!-- MailChimp -->
+ <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+ <script type='text/javascript'>
+     (function ($) {
+         window.fnames = new Array();
+         window.ftypes = new Array();
+         fnames[0] = 'EMAIL';
+         ftypes[0] = 'email';
+         fnames[1] = 'FNAME';
+         ftypes[1] = 'text';
+         fnames[2] = 'LNAME';
+         ftypes[2] = 'text';
+         fnames[3] = 'ADDRESS';
+         ftypes[3] = 'address';
+         fnames[4] = 'PHONE';
+         ftypes[4] = 'phone';
+         fnames[5] = 'BIRTHDAY';
+         ftypes[5] = 'birthday';
+     }(jQuery));
+     var $mcj = jQuery.noConflict(true);
+ </script>
   
 </body>
 </html>
