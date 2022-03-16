@@ -1,6 +1,8 @@
 
 # DELANI STUDIO
-![delani studio image](https://github.com/catherineotondi/delani-studio/blob/master/img/h_img.jpg)
+
+# <p align=center><img src=https://github.com/catherineotondi/delani-studio/blob/master/img/h_img.jpg height=400px height=400px></p>
+
 ## ABOUT
 
 This Web application is about a fictional studio that provides software development services to clients with respect to their needs.
